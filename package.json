@@ -1,0 +1,48 @@
+{
+  "name": "islands-dark-cpp",
+  "displayName": "Islands Dark C++",
+  "description": "Dark theme inspired by CLion's Islands Dark color scheme, tuned for C++ with clangd semantic highlighting.",
+  "version": "0.1.0",
+  "publisher": "fpaisana",
+  "author": "Francisco Paisana",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankist/islands-dark-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frankist/islands-dark-vscode/issues"
+  },
+  "homepage": "https://github.com/frankist/islands-dark-vscode#readme",
+  "galleryBanner": {
+    "color": "#191A1C",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "c++",
+    "cpp",
+    "clangd",
+    "clion",
+    "jetbrains",
+    "islands",
+    "semantic highlighting"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Islands Dark C++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/islands-dark-cpp-color-theme.json"
+      }
+    ]
+  }
+}
