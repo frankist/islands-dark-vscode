@@ -11,6 +11,18 @@ A dark VS Code color theme inspired by CLion's Islands Dark color scheme, tuned 
   classes vs typedefs, constants and enumerators, deduced `auto`, overloaded operators.
 - Islands-style workbench: editor, side bar, tabs and panel share one surface inside a lighter frame.
 
+## Install from release
+
+Download the latest `.vsix` from the [releases page](https://github.com/frankist/islands-dark-vscode/releases/latest)
+and install it, or with the GitHub CLI:
+
+```sh
+gh release download -R frankist/islands-dark-vscode -p '*.vsix' -D /tmp --clobber
+code --install-extension /tmp/islands-dark-cpp-*.vsix --force
+```
+
+Then select **Islands Dark C++** with `Preferences: Color Theme`.
+
 ## Recommended setup
 
 Semantic colors rely on the
