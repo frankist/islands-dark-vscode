@@ -1,3 +1,4 @@
 .gitignore
 *.vsix
 .git/
+images/

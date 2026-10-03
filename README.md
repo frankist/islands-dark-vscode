@@ -2,7 +2,7 @@
 
 A dark VS Code color theme inspired by CLion's Islands Dark color scheme, tuned for C++.
 
-<!-- TODO: add screenshot (https URL, PNG/JPG). -->
+![Islands Dark C++ screenshot](images/screenshot.png)
 
 ## Features
 
